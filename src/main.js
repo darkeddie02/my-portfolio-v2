@@ -25,5 +25,9 @@ const router = new VueRouter({
 });
 
 new Vue({
+  created() {
+    AOS.init();
+  },
+  router,
   render: (h) => h(App),
 }).$mount("#app");
