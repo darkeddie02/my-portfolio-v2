@@ -24,35 +24,34 @@
         width="50%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
-
+      <div class="cont">
+        <h2 class="tech-project">Technical Projects</h2>
+      </div>
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="Technical Projects">
-          <br />
-          <div class="row">
-            <div
-              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
-              v-for="(portfolio, idx) in portfolio_info"
-              :key="portfolio.name"
-            >
-              <Card
-                :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
-                :portfolio="portfolio"
-                @show="showModalFn"
-                data-aos="fade-up"
-                :nightMode="nightMode"
-                data-aos-offset="100"
-                data-aos-delay="10"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="true"
-              />
-            </div>
+        <div class="row">
+          <div
+            class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
+            v-for="(portfolio, idx) in portfolio_info"
+            :key="portfolio.name"
+          >
+            <Card
+              :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
+              :portfolio="portfolio"
+              @show="showModalFn"
+              data-aos="fade-up"
+              :nightMode="nightMode"
+              data-aos-offset="100"
+              data-aos-delay="10"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+            />
           </div>
-          <div class="text-center py-3" v-if="showBtn !== 'show less'">
-            <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div>
-        </v-tab>
+        </div>
+        <div class="text-center py-3" v-if="showBtn !== 'show less'">
+          <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
+        </div>
       </vue-tabs>
     </div>
     <transition name="modal">
@@ -81,7 +80,7 @@ import Card from "./helpers/Card";
 import Modal from "./helpers/Modal";
 import info from "../../info";
 
-import { VueTabs, VTab } from "vue-nav-tabs";
+import { VueTabs } from "vue-nav-tabs";
 import "vue-nav-tabs/themes/vue-tabs.css";
 import "vueperslides/dist/vueperslides.css";
 
@@ -91,7 +90,6 @@ export default {
     Card,
     Modal,
     VueTabs,
-    VTab,
   },
   props: {
     nightMode: {
@@ -182,6 +180,11 @@ export default {
 .title {
   font-size: 30px;
   font-weight: 500;
+}
+
+.cont > .tech-project {
+  font-size: medium;
+  text-align: center;
 }
 .title1 {
   font-size: 24px;
