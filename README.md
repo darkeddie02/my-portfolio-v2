@@ -2,6 +2,9 @@
 
 ![](./src/assets/nesthubmax.PNG)
 
+## Netlify
+![View Live](https://darkeddie02-portfolio.netlify.app/)
+
 ## Project setup
 ```
 yarn install
