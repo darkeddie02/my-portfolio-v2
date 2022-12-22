@@ -117,9 +117,6 @@ export default {
     Logo,
     Download,
   },
-  mounted() {
-    this.downloadFile();
-  },
   methods: {
     switchMode() {
       this.localNightMode = !this.localNightMode;

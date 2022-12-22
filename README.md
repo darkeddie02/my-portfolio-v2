@@ -1,5 +1,7 @@
 # my-portfolio-v2
 
+![](./src/assets/nesthubmax.PNG)
+
 ## Project setup
 ```
 yarn install
