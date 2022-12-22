@@ -22,9 +22,9 @@
           <div>
             <p v-html="description" class="desc"></p>
           </div>
-          <div class="text-center pb-4">
+          <div class="text-center pb-4 mt-2">
             <button
-              class="btn btn-outline-secondary mx-2 "
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
               v-tooltip.bottom="'LinkedIn'"
             >
@@ -73,7 +73,7 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
@@ -100,6 +100,10 @@ export default {
   font-weight: 500;
 }
 
+.desc {
+  margin-top: 10px;
+}
+
 img {
   max-width: 600px;
   max-height: 500px;
@@ -124,19 +128,19 @@ img {
 }
 
 .btn {
-  border-color: #759CC9;
-  color: #759CC9;
+  border-color: #759cc9;
+  color: #759cc9;
 }
 
 .btn:hover {
-  background-color: #759CC9;
-  border-color: #759CC9;
+  background-color: #759cc9;
+  border-color: #759cc9;
   color: white;
 }
 
 .btn:focus {
-  background-color: #759CC9;
-  border-color: #759CC9;
+  background-color: #759cc9;
+  border-color: #759cc9;
   color: white;
 }
 

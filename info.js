@@ -1,7 +1,7 @@
 let info = {
   name: "Edward Oluyara",
   logo_name: "Darkeddie02",
-  flat_picture: require("./src/assets/me.jpg"),
+  flat_picture: require("./src/assets/me-v4.png"),
   config: {
     use_cookies: true,
     navbar: {
