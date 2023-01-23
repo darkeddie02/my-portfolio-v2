@@ -3,7 +3,7 @@
 ![](./src/assets/nesthubmax.PNG)
 
 ## Netlify
-- [View Live](https://darkeddie02-portfolio.netlify.app/)
+- [View Live](https://meattech6.netlify.app/)
 
 ## Project setup
 ```

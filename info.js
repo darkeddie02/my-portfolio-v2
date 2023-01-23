@@ -1,6 +1,6 @@
 let info = {
   name: "Edward Oluyara",
-  logo_name: "meattech6",
+  logo_name: "meattech",
   flat_picture: require("./src/assets/me-v4.png"),
   config: {
     use_cookies: true,
