@@ -13,7 +13,7 @@ export default {
   name: "Download",
   methods: {
     downloadFile() {
-      fetch("darkeddie02-resume.pdf").then((res) => {
+      fetch("meattech-resume-v2.pdf").then((res) => {
         res.blob().then((blob) => {
           // Create new obj of PDF file
           const fileURL = window.URL.createObjectURL(blob);
@@ -21,7 +21,7 @@ export default {
           // Set various prop values
           let isalink = document.createElement("a");
           isalink.href = fileURL;
-          isalink.download = "darkeddie02-resume.pdf";
+          isalink.download = "meattech-resume-v2.pdf";
           isalink.click();
         });
       });

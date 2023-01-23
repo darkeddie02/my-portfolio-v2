@@ -1,6 +1,6 @@
 let info = {
   name: "Edward Oluyara",
-  logo_name: "Darkeddie02",
+  logo_name: "meattech6",
   flat_picture: require("./src/assets/me-v4.png"),
   config: {
     use_cookies: true,
@@ -12,9 +12,9 @@ let info = {
     "Hey there, I'm Edward Oluyara a graduate from a Full Stack Development bootcamp Microverse, A web specialist with 2 years of experience integrating web feature and products also familiar with Reactjs, Vuejs and Web UI, Also a Backend Engineer with 1 year of experience with ROR(Ruby on Rails) and Nestjs.",
   links: {
     linkedin: "https://www.linkedin.com/in/edward-oluyara-708b88215/",
-    github: "https://github.com/darkeddie02",
+    github: "https://github.com/meattech6",
     resume:
-      "https://docs.google.com/document/d/1N6I_qk2qaJaDphe1EsuYcrJk88J9lMhF0D1uqPbWDDM/edit",
+      "https://docs.google.com/document/d/14UO6KARK3TzBr2DpjV_y04W0NU91xg079-MuJR3eagA/edit?usp=sharing",
   },
   education: [
     {
@@ -115,7 +115,7 @@ let info = {
       technologies: ["React", "Redux", "CSS"],
       category: "Web App",
       date: "Jan, 2022 - 1 week",
-      github: "https://github.com/darkeddie02/matrix-App",
+      github: "https://github.com/meattech6/matrix-App",
       visit: "https://immense-brook-29259.herokuapp.com/",
       description:
         "A simple react app built to consume an open source REST API listing all the specific details of a company, the main functionality of this app is when you click a particular company in the list of over 25 filtered companies then you will see a list of that company's details it was just a demo app to build my Reactjs skills.",
@@ -139,7 +139,7 @@ let info = {
       technologies: ["React", "Redux", "Bootstrap", "REST API"],
       category: "Web App",
       date: "Mar, 2022 - 1 week",
-      github: "https://github.com/darkeddie02/pocket-smith",
+      github: "https://github.com/meattech6/pocket-smith",
       visit: "https://pocket-smith.herokuapp.com/",
       description:
         "This app is a money budget app that allows you to keep track of all your expences and a user can also see a list of transaction specific to a particular category, Now how can we use this Pocket Smith App...well the main functionality is that when a user signup with his/her email a verification is sent to that user and that verification is been used to authorize the user inorder to make transactions and also manage their budget, this was also a demo app.",
@@ -163,7 +163,7 @@ let info = {
       technologies: ["React", "Bootstrap", "Redux"],
       category: "Web App",
       date: "Feb, 2022 - 1 week",
-      github: "https://github.com/darkeddie02/space-travellers-app",
+      github: "https://github.com/meattech6/space-travellers-app",
       description:
         "An online rocket booking system that allows a user to book a fligt to space at a derived time, Users can also cancel thier reservation. How the reservation system work is...when a user should reserve a rocket SpaceX saves each reservations in your profile and also users can join as members of a mission.",
     },
@@ -182,7 +182,7 @@ let info = {
       technologies: ["React", "Bootstrap", "JSON-Server"],
       category: "Web App",
       date: "Aug, 2022 - 3 days",
-      github: "https://github.com/darkeddie02/task-tracker",
+      github: "https://github.com/meattech6/task-tracker",
       description:
         "This demo app was built to test how React integrates with a JSON-Server dependency, I have also been able to create a space whereby users can keep track of their event in a timely manner.",
     },
@@ -197,7 +197,7 @@ let info = {
       technologies: ["React", "CSS", "OMDB API"],
       category: "Web App",
       date: "Nov, 2022 - 1 day",
-      github: "https://github.com/darkeddie02/movie-search-engine",
+      github: "https://github.com/meattech6/movie-search-engine",
       description:
         "This a demo app I built with react to fetch a restful API from OMDB to filter the list of movies. The main functionality of this app is that users can easily search for thier favorite movies with ease.",
     },
