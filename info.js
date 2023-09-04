@@ -1,6 +1,6 @@
 let info = {
   name: "Edward Oluyara",
-  logo_name: "meattech",
+  logo_name: "eddie-tomisin",
   flat_picture: require("./src/assets/me-v4.png"),
   config: {
     use_cookies: true,
@@ -9,7 +9,7 @@ let info = {
     },
   },
   description:
-    "Hey there, I'm Edward Oluyara a graduate from a Full Stack Development bootcamp Microverse, A web specialist with 2 years of experience integrating web feature and products also familiar with Reactjs, Vuejs and Web UI, Also a Backend Engineer with 1 year of experience with ROR(Ruby on Rails) and Nestjs.",
+    "Hey there, I'm Edward Oluyara a Software Developer with interpersonal skills and a graphic design specialist with 2+ years of experience been self-employed, I have partnered with various organizations and individuals to produce excellent web features accross different countries.",
   links: {
     linkedin: "https://www.linkedin.com/in/edward-oluyara-708b88215/",
     github: "https://github.com/meattech6",
@@ -21,9 +21,9 @@ let info = {
       name: "Microverse",
       place: "CA, Califonia • Remote",
       date: "oct, 2021 - oct, 2022",
-      degree: "Full Stack Development Certification",
+      degree: "Full Stack Development",
       description:
-        "Microverse is a remote software development bootcamp, It's an educative system that allows developers to pair program and collaborate across multiple countries world wide.",
+        "Completed an intensive remote Microverse program focused on Full Stack Development, Gained hands-on experience and practical knowledge through rigorous coursework, projects, and assignments, Collaborated with peers and industry professionals to develop real-world solutions and build a strong professional network, Acquired valuable skills in Ruby and JavaScript to excel in Full Stack Development ",
       skills: [
         "Web Programming",
         "Web UI Design",
@@ -40,28 +40,28 @@ let info = {
       date: "oct, 2022 - present",
       position: "Backend Developer",
       description:
-        "Creating an API that secures customers data and also manage admins(Farmers) data in a database.",
-      skills: ["Node", "Express", "MongoDB", "REST", "JWT"],
+        "Collaborated closely with cross-functional teams to define API specifications, ensuring seamless integration of frontend and backend systems. Managed and optimized databases, improving query performance and data reliability. Implemented security measures, including authentication and authorization mechanisms, to safeguard sensitive data and prevent unauthorized access.",
+      skills: ["Node", "Express", "MongoDB", "REST", "JWT", "ReactJS"],
     },
     {
-      name: "Freelancer",
+      name: "Self-Employed",
       place: "Lagos, Nigeria",
       date: "Nov, 2022 - present",
-      position: "Frontend Developer",
+      position: "Full Stack Developer",
       description:
-        "Consuming Backend API's to become more user friendly and interactive.",
+        "Leveraged expertise in front-end and back-end technologies to deliver custom solutions.",
       skills: ["React", "Vue", "HTML", "Bootstrap", "Redux", "Material-UI"],
     },
   ],
   skills: [
     {
-      title: "Web UI Design",
-      info: ["Figma", "Material-UI", "Bootstrap", "CSS"],
+      title: "UI Design",
+      info: ["Figma", "Material-UI", "Bootstrap", "CSS", "Tailwind CSS"],
       icon: "fa fa-pencil-square-o",
     },
     {
       title: "Language",
-      info: ["Javascript", "Typescript"],
+      info: ["Javascript", "Ruby", "C#"],
       icon: "fa fa-code",
     },
     {
@@ -71,7 +71,7 @@ let info = {
     },
     {
       title: "Backend",
-      info: ["Ruby", "Node"],
+      info: ["Ruby On Rails", "Node"],
       icon: "fas fa-laptop-code",
     },
   ],

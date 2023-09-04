@@ -115,12 +115,12 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
   content: " ";
-  background: #8585ad;
+  background: #e56300;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 2px solid #8585ad;
-  left: 20px;
+  border: 2px solid #e56300;
+  left: 17.5px;
   width: 25px;
   height: 25px;
   z-index: 400;

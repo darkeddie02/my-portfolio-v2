@@ -4,7 +4,7 @@
       @click="downloadFile"
       class="btn-md btn btn-outline-secondary no-outline"
     >
-      Download Resume <i class="fas fa-download text-warning"></i>
+      Resume <i class="fas fa-download text-warning"></i>
     </button>
   </div>
 </template>

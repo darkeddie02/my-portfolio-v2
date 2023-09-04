@@ -84,13 +84,13 @@ export default {
 }
 
 .fa {
-  color: #8585ad;
+  color: 	#e56300;
   font-size: 40px;
   transition: all 0.5s;
 }
 
 .fas {
-  color: #8585ad;
+  color: 	#e56300;
   font-size: 40px;
   /* font-weight: bold; */
   transition: all 0.5s;
