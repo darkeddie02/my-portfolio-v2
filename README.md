@@ -1,9 +1,9 @@
 # my-portfolio-v2
 
-![](./src/assets/nesthubmax.PNG)
+![](src\assets\resume-view.PNG)
 
 ## Netlify
-- [View Live](https://meattech6.netlify.app/)
+- [View Live](https://eddie-tomisin.netlify.app/)
 
 ## Project setup
 ```
@@ -29,4 +29,4 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 👤 Author
-- [darkeddie02](https://github.com/darkeddie02)
+- [eddie-tomisin](https://github.com/eddie-tomisin)
