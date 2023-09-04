@@ -13,7 +13,7 @@ export default {
   name: "Download",
   methods: {
     downloadFile() {
-      fetch("meattech-resume-v2.pdf").then((res) => {
+      fetch("eddie-tomisin-resume.pdf").then((res) => {
         res.blob().then((blob) => {
           // Create new obj of PDF file
           const fileURL = window.URL.createObjectURL(blob);
@@ -21,7 +21,7 @@ export default {
           // Set various prop values
           let isalink = document.createElement("a");
           isalink.href = fileURL;
-          isalink.download = "meattech-resume-v2.pdf";
+          isalink.download = "eddie-tomisin-resume.pdf";
           isalink.click();
         });
       });
