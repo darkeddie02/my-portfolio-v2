@@ -14,7 +14,7 @@ let info = {
     linkedin: "https://www.linkedin.com/in/edward-oluyara/",
     github: "https://github.com/eddie-2020",
     resume:
-      "https://docs.google.com/document/d/14UO6KARK3TzBr2DpjV_y04W0NU91xg079-MuJR3eagA/edit?usp=sharing",
+      "https://drive.google.com/file/d/18OpwM5l5D8FNceezvo9FkIR2YHA35lkq/view?usp=drive_link",
   },
   education: [
     {
