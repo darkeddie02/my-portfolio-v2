@@ -13,7 +13,7 @@ export default {
   name: "Download",
   methods: {
     downloadFile() {
-      fetch("eddie-tomisin-resume.pdf").then((res) => {
+      fetch("oluyara-edward-oluwatosin-resume.pdf").then((res) => {
         res.blob().then((blob) => {
           // Create new obj of PDF file
           const fileURL = window.URL.createObjectURL(blob);
@@ -21,7 +21,7 @@ export default {
           // Set various prop values
           let isalink = document.createElement("a");
           isalink.href = fileURL;
-          isalink.download = "eddie-tomisin-resume.pdf";
+          isalink.download = "oluyara-edward-oluwatosin-resume.pdf";
           isalink.click();
         });
       });
